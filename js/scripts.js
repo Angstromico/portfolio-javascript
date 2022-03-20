@@ -110,6 +110,14 @@ const projects = [
     image:
       'https://raw.githubusercontent.com/Angstromico/app-gastos/master/gasto.png',
   },
+  {
+    title: 'Shooting Space Game',
+    description:
+      'A game made with the JavaScript API called Canvas from the Bullet Hell genre that I made following this tutorial: https://www.youtube.com/watch?v=eI9idPTT0c4&t=5s. Of course, I added details like being able to create a user and save game data in localStorage so that it is preserved between games.',
+    link: 'https://manuel-morales-space-canvas.netlify.app',
+    image:
+      'https://raw.githubusercontent.com/Angstromico/space-canvas-game/master/canvas.png',
+  },
 ];
 const row = document.querySelector('.row2');
 
