@@ -118,6 +118,13 @@ const projects = [
     image:
       'https://raw.githubusercontent.com/Angstromico/space-canvas-game/master/canvas.png',
   },
+  {
+    title: 'App Weather',
+    description: 'App to see the eather of your city',
+    link: 'https://manuel-morales-weather-app.netlify.app/',
+    image:
+      'https://raw.githubusercontent.com/Angstromico/weather-app/master/weather-app.png',
+  },
 ];
 const row = document.querySelector('.row2');
 
@@ -142,6 +149,7 @@ for (let project of projects) {
   const linkProject = document.createElement('A');
   linkProject.className = 'btn btn-primary mb-2 mt-2';
   linkProject.href = link;
+  linkProject.target = '_blank';
   linkProject.textContent = 'View the Project';
   infoProject.append(nameProject, descriptionProject, linkProject);
   container.append(imageContainer, infoProject);
